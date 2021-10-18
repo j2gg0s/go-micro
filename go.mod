@@ -1,4 +1,4 @@
-module github.com/micro/go-micro
+module github.com/j2gg0s/go-micro
 
 go 1.13
 
@@ -14,7 +14,6 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-acme/lego/v3 v3.1.0
 	github.com/go-log/log v0.1.0
-	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/golang/protobuf v1.3.2
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/handlers v1.4.2
@@ -24,13 +23,12 @@ require (
 	github.com/joncalhoun/qson v0.0.0-20170526102502-8a9cab3a62b1
 	github.com/json-iterator/go v1.1.8
 	github.com/kr/pretty v0.1.0
-	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/lib/pq v1.2.0
 	github.com/lucas-clemente/quic-go v0.13.1
 	github.com/mholt/certmagic v0.8.3
 	github.com/micro/cli v0.2.0
+	github.com/micro/go-micro v1.18.0
 	github.com/micro/mdns v0.3.0
-	github.com/micro/protoc-gen-micro v1.0.0 // indirect
 	github.com/miekg/dns v1.1.22
 	github.com/mitchellh/hashstructure v1.0.0
 	github.com/nats-io/nats.go v1.9.1
@@ -38,7 +36,6 @@ require (
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c
 	github.com/pkg/errors v0.8.1
 	github.com/stretchr/testify v1.4.0
-	go.uber.org/zap v1.12.0 // indirect
 	golang.org/x/crypto v0.0.0-20191108234033-bd318be0434a
 	golang.org/x/net v0.0.0-20191109021931-daa7c04131f5
 	google.golang.org/grpc v1.25.1

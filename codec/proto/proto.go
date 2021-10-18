@@ -33,6 +33,11 @@ func (c *Codec) Write(m *codec.Message, b interface{}) error {
 	if !ok {
 		return nil
 	}
+	if buf, ok := b.([]byte); ok {
+		_, err := c.Conn.Write(buf)
+		return err
+	}
+
 	buf, err := proto.Marshal(p)
 	if err != nil {
 		return err
