@@ -1,10 +1,10 @@
-module github.com/asim/go-micro/v3
+module github.com/j2gg0s/go-micro/v3
 
 go 1.16
 
 require (
+	github.com/asim/go-micro/v3 v3.6.0
 	github.com/bitly/go-simplejson v0.5.0
-	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/ef-ds/deque v1.0.4
 	github.com/evanphx/json-patch/v5 v5.5.0
 	github.com/fsnotify/fsnotify v1.4.9
@@ -12,7 +12,6 @@ require (
 	github.com/go-acme/lego/v4 v4.4.0
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/gobwas/httphead v0.1.0
-	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/gobwas/ws v1.0.4
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.2.0
@@ -30,4 +29,4 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 )
 
-replace github.com/asim/go-micro/v3 => ../go-micro
+replace github.com/j2gg0s/go-micro/v3 => ../go-micro

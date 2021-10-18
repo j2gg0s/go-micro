@@ -37,6 +37,11 @@ func (c *Codec) Write(m *codec.Message, b interface{}) error {
 		// Nothing to write
 		return nil
 	}
+	if buf, ok := b.([]byte); ok {
+		_, err := c.Conn.Write(buf)
+		return err
+	}
+
 	p, ok := b.(proto.Message)
 	if !ok {
 		return codec.ErrInvalidMessage
